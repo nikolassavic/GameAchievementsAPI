@@ -1,4 +1,4 @@
-# achievements_project
+# GameAchievementsAPI
 
 Task: Implement a HTTP/JSON web service for managing achievements for a pre-existing set of games.
 
