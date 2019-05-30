@@ -1,0 +1,544 @@
+{
+	"info": {
+		"_postman_id": "bf008ab5-c6d7-41e4-84be-0606fbdc334f",
+		"name": "Achievements API requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Create achievement BAD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"displayName\": \"DN9\",\n    \"description\": \"Desc9\",\n    \"icon\":\"\",\n    \"displayOrder\":\"\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003a",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create achievement BAD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"displayName\": \"\",\n    \"description\": \"Desc9\",\n    \"icon\":\"\",\n    \"displayOrder\":\"\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create achievement BAD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \n    \"description\": \"Desc9\",\n    \"icon\":\"\",\n    \"displayOrder\":\"\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create achievement BAD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"displayName\": \"DN9111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111\",\n    \"description\": \"Desc9\",\n    \"icon\":\"\",\n    \"displayOrder\":\"\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create achievement BAD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"displayName\": \"DN9\",\n    \"description\": \"Desc9\",\n    \"icon\":\"\",\n    \"displayOrder\":9999999999\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create achievement BAD",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create achievement OK",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"displayName\": \"DN9\",\n    \"description\": \"Desc9\",\n    \"icon\":\"\",\n    \"displayOrder\":0\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create achievement OK",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"displayName\": \"DN10\",\n    \"description\": \"Desc10\",\n    \"icon\":\"www.icon.com/icon10.jpg\",\n    \"displayOrder\":10\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				},
+				"description": "Create an achievement for the specific game."
+			},
+			"response": []
+		},
+		{
+			"name": "Update achievement BAD",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"displayName\": \"DN8\",\n    \"description\": \"Desc8\",\n    \"icon\": \"www.icon.com/icon8.png\",\n    \"displayOrder\": 3\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/77de9fc0-159a-4533-bdde-cbde027e6507a",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"77de9fc0-159a-4533-bdde-cbde027e6507a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update achievement BAD",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/77de9fc0-159a-4533-bdde-cbde027e6507",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"77de9fc0-159a-4533-bdde-cbde027e6507"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update achievement BAD",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"displayName\": \"DN8111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111\",\n    \"description\": \"Desc8\",\n    \"icon\": \"www.icon.com/icon8.png\",\n    \"displayOrder\": 3\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/77de9fc0-159a-4533-bdde-cbde027e6507",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"77de9fc0-159a-4533-bdde-cbde027e6507"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update achievement OK",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"displayName\": \"DN8\",\n    \"description\": \"Desc8\",\n    \"icon\": \"www.icon.com/icon8.png\",\n    \"displayOrder\": -38\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/77de9fc0-159a-4533-bdde-cbde027e6507",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"77de9fc0-159a-4533-bdde-cbde027e6507"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update achievement OK",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"displayName\": \"DN83\",\n    \"description\": \"Desc83\",\n    \"icon\": \"www.icon.com/icon83.png\",\n    \"displayOrder\": 83\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/77de9fc0-159a-4533-bdde-cbde027e6507",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"77de9fc0-159a-4533-bdde-cbde027e6507"
+					]
+				},
+				"description": "Update an achievement."
+			},
+			"response": []
+		},
+		{
+			"name": "Get achievement OK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/112bdccb-0f35-4dac-b617-9b6a14c8fbab",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"112bdccb-0f35-4dac-b617-9b6a14c8fbab"
+					]
+				},
+				"description": "Get details for one achievement."
+			},
+			"response": []
+		},
+		{
+			"name": "Get achievement BAD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/112bdccb-0f35-4dac-b617-9b6a14c8fbaba",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"112bdccb-0f35-4dac-b617-9b6a14c8fbaba"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get all game achievements OK",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/all/d67093e9-4c1b-11e9-b8dc-c8600077a003",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"all",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003"
+					]
+				},
+				"description": "Get all achievements for the specific game."
+			},
+			"response": []
+		},
+		{
+			"name": "Get all game achievement BAD",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/all/d67093e9-4c1b-11e9-b8dc-c8600077a003a",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"all",
+						"d67093e9-4c1b-11e9-b8dc-c8600077a003a"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete achievement BAD",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/40f83274-360a-4448-a028-03457f207215a",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"40f83274-360a-4448-a028-03457f207215a"
+					]
+				},
+				"description": "Delete an achievement."
+			},
+			"response": []
+		},
+		{
+			"name": "Delete achievement OK",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "localhost:8080/achievements/40f83274-360a-4448-a028-03457f207215",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"achievements",
+						"40f83274-360a-4448-a028-03457f207215"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
